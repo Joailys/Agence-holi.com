@@ -4,11 +4,8 @@
 }
 
 body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
     background-image: url('img/BACKGROUND.png');
-    background-size: 90em 45em;
+    background-size: 120em 60em;
     background-repeat: no-repeat;
 }
 .header{
@@ -16,6 +13,7 @@ body{
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
+    margin-bottom: 2%;
 }
 header ul {
     display: flex;
@@ -23,8 +21,9 @@ header ul {
     margin: -10px;
     margin-left: 25%;
     position: absolute;
+    align-self: center;
     font-family: BEBAS;
-    font-size: 22px;
+    font-size: 30px;
   }
   header ul li a:hover {
     color: #CE4D60;  
@@ -54,6 +53,7 @@ header ul {
     margin-right: 50px;
     justify-content: center;
     margin-top: 10px;
+
 }
 .navimg{
     display: flex;
@@ -62,12 +62,8 @@ header ul {
 }
 .language{
     border: 2px solid white;
-    padding: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 5px;
     margin-left: 20px;
-    font-size: 22px;
-    font-family: BEBAS;
 }
 
 
@@ -78,13 +74,9 @@ header ul {
     color: white;
 }
 #galery{
-    width: 20000px;
-    position: relative;
+    width: 1500px;
 }
 
-#central img{
-    width: 100%;
-}
 
 .ca{
     padding-left: 50px;
@@ -104,32 +96,16 @@ h2{
     line-height: 75px;
     margin-bottom: 40px;
 }
+#central img{
+    width: 95%;
+    height: auto;
+}
+
 
 
 
 .over{
     width: 10%;
-    height: auto;
     margin-left: 20px;
-}
-
-.city{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -15px;
-}
-
-.paris{
-    margin-left: 150px;
-    margin-right: 150px;
-    color: rgb(27, 223, 27);
-}
-
-.lille{
-    color: rgb(255, 115, 0);
-}
-
-.lyon{
-    color: rgb(0, 195, 255);
+    margin-top: -40px;
 }
