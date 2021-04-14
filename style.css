@@ -2,6 +2,15 @@
     font-family: BEBAS;
     src: url("font/bebas/Bebas-Regular.ttf");
 }
+@font-face {
+    font-family: shakerato;
+    src: url("font/shakerato/Shakerato-PERSONAL.otf");
+}
+
+@font-face {
+    font-family: shakeratolite;
+    src: url("font/shakerato/Shakerato-PERSONAL-Light.otf");
+}
 
 body{
     height: 100%;
@@ -26,23 +35,26 @@ header ul {
     font-family: BEBAS;
     font-size: 22px;
   }
-  header ul li a:hover {
+.list:hover {
     color: #CE4D60;  
     border-bottom: 3px solid;
+    
 }
   
-  header ul li {
+header ul li {
     margin-left: 28px;
     margin-right: 28px;
   
-  }
-  a {
+}
+
+a {
     text-decoration: none;
     color: white;
-  }
+}
 .line{
     border-right: 1px solid white;
     padding-right:50px;
+
 }
 .navbar{
     display: flex;
@@ -96,28 +108,34 @@ header ul {
     -webkit-background-clip:text;
     color:transparent;
 }
+
 .ici{
     padding-left: 122px;
 }
+
 h2{
     font-size: 90px;
     line-height: 75px;
     margin-bottom: 40px;
 }
 
-
+.txt{
+    font-family: shakeratolite;
+}
 
 .over{
-    width: 10%;
+    width: 18%;
     height: auto;
     margin-left: 20px;
+    margin-top: -50px;
 }
 
 .city{
     display: flex;
-    align-items: center;
     justify-content: center;
     margin-top: -15px;
+    font-size: 22px;
+    font-family: shakeratolite;
 }
 
 .paris{
@@ -132,4 +150,10 @@ h2{
 
 .lyon{
     color: rgb(0, 195, 255);
+}
+
+.down{
+    display: flex;
+    justify-content: center;
+    height: 50px;
 }
